@@ -20,6 +20,9 @@ On the home page, if a user is logged in they are able to view all posts that ha
 
 Users are able to comment on a particular post, and previous comments for that post will be displayed below the post. 
 
+## Installation and Usage
+
+This project can be viewed and demo'd at [this live link](https://tech-blog-mvc-14.herokuapp.com/) hosted on heroku. 
 ## Technologies Used in this project 
 
 - [Node.js](https://nodejs.org/en/)
