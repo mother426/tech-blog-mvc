@@ -1,0 +1,15 @@
+[
+    {
+      "post_title": "Hello World",
+      "post_content": "Hello world, this is an app that does things and this is a post on that app."
+    },
+    {
+      "post_title": "Lorem Ipsum",
+      "post_content": "Donec tincidunt lorem ultrices vestibulum venenatis"
+    },
+    {
+      "post_title": "Fusce consequat arcu et lorem tincidunt pellentesque.",
+      "post_content": "Curabitur semper malesuada lorem, sed congue nulla accumsan quis. Nullam nulla tortor, pharetra id sodales ut, dignissim quis enim."
+    }
+  ]
+  

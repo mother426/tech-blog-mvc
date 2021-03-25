@@ -1,0 +1,30 @@
+<div class="text-center">
+  <h2>{{post_title}}</h2>
+  <p>{{post_content}}</p>
+  <p>Created by {{user.name}} on {{date_created}}</p>
+  <div class="card">
+    <h3 class="card-header"></h3>
+    
+    <form class="card-body comment-form" id="comment-form">
+
+      <label class="form-label">Comment</label>
+      <input id="comment" name="comment-body" class="form-input" />
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+ 
+  </div>
+
+{{#each comment}}
+  <div class="row mb-4 post">
+    <div class="col-md-5">
+      <h2>
+        <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+        <a href="/comments/{{id}}">{{comment_content}}</a>
+      </h2>
+    </div>
+  </div>
+</div>
+{{/each}}
+
+<script src="/js/comment.js"></script>
